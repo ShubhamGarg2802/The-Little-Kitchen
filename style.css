@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navItem ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Crete Round', serif;
+    transition: all;
+    transition-duration: 0.4s;
+}
+.navItem ul li a:hover{
+    text-decoration: underline;
+    font-size: 14pt;
+}
+.container{
+    height: 100%;
+    width: vw;
+}
+.navContainer{
+    background-color: #d9d9d9;
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 50px; */
+    width: 100%;
+    /* padding: 3px; */
+    /* background-color: #d9d9d9; */
+}
+.navItem{
+    display: flex;
+    
+}
+.navItem ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    font-size: 1.5rem;
+    font-family: 'Crete Round', serif;
+}
+li{
+    list-style-type: none;
+}
+.nav img{
+    width: 80px;
+    height: 80px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* .introimg img{
+    width: 830px;
+    /* height: 80%;} */
+.introcard{
+    width: 90%;
+    height: 420px;
+    background-image: url(https://img.freepik.com/free-photo/copy-space-italian-food-ingredients_23-2148551732.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 40px;
+}
+#punchline{
+    font-size: 4.2rem;
+    font-weight: 600;
+    font-family: 'Crete Round', serif;
+    color: white;
+    text-shadow: -3px -3px 5px #000, 3px -3px 5px #000, -3px 3px 5px #000, 3px 3px 5px #000;
+    color: rgb(255, 187, 0);
+
+}
+#desc{
+    font-size: 2.2rem;
+    font-weight: 500;
+    font-family: 'Crete Round', serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    color:black
+}
+#introButton{
+    font-size: 2.2rem;
+    font-weight: 500;
+    font-family: 'Crete Round', serif;
+    /* background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(157,157,157,1) 99%);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border-radius: 32px;
+    padding: 10px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+#introButton:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 2.25rem;
+    cursor: pointer;
+}

@@ -135,7 +135,9 @@ li{
 }
 .recipeCard{
     display: flex;
-    gap: 30px;
+    /* gap: 30px; */
+    width: 100%;
+    justify-content: space-around;
 }
 .recipe h2{
     font-size: 25pt;
@@ -173,6 +175,72 @@ li{
     background-color: #ffffff;
 }
 .recipeButton:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 13pt;
+    cursor: pointer;
+}
+.chef{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+    gap: 50px;
+    width: 100%;
+}
+.chefCard{
+    display: flex;
+    /* gap: 60px; */
+    width: 80%;
+    justify-content: space-evenly;
+}
+.chef h2{
+    font-size: 25pt;
+    font-family: 'Crete Round', serif;
+}
+.chefHolder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.chefHolder p{
+    font-size: 15pt;
+    font-family: 'Crete Round', serif;
+}
+.chefImg{
+    width: 150px;
+    border-radius: 150px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    position: relative;
+    overflow: hidden;
+}
+.chefImg img{
+    max-width: 100%;
+    transition: all 0.4s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    border-radius: 100px ;
+}
+.chefImg:hover img{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.chefButton{
+    width: 90px;
+    font-size: 12pt;
+    font-family: 'Crete Round', serif;
+    border: 0.1rem solid #F9B929;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all;
+    transition-duration: 0.2s;
+    color: #F9B929;
+    background-color: #ffffff;
+}
+.chefButton:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 13pt;
     cursor: pointer;
